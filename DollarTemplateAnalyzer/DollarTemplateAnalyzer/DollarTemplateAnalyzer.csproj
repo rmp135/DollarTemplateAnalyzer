@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <IsPackable>false</IsPackable>
+        <IsPackable>true</IsPackable>
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
 
@@ -11,15 +11,28 @@
 
         <RootNamespace>DollarTemplateAnalyzer</RootNamespace>
         <AssemblyName>DollarTemplateAnalyzer</AssemblyName>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>rmp135.DollarTemplateAnalyzer</PackageId>
+        <Title>Dollar Template Analyzer</Title>
+        <Authors>Ryan Poole</Authors>
+        <Description>Rosyln analyzer to detect dollar signs in template strings.</Description>
+        
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4">
             <PrivateAssets>all</PrivateAssets>
-            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <IncludeAssets>runtime; build; native; contentfiles;  analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.6.0"/>
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.6.0"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="\" />
     </ItemGroup>
 
 
