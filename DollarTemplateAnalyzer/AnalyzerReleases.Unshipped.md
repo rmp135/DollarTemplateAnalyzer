@@ -2,4 +2,4 @@
 
 Rule ID | Category | Severity | Notes 
 --------|----------|----------|-------
-RP0001 | Usage | Warning | TestAnalyzer
+RP0001 | Usage | Info     | DollarTemplateAnalyzer

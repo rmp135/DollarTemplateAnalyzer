@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DollarTemplateAnalyzer", "DollarTemplateAnalyzer\DollarTemplateAnalyzer\DollarTemplateAnalyzer.csproj", "{9A8834E0-112C-4873-851C-2EAF9BD47ED5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DollarTemplateAnalyzer", "DollarTemplateAnalyzer\DollarTemplateAnalyzer.csproj", "{9A8834E0-112C-4873-851C-2EAF9BD47ED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DollarTemplateAnalyzer.Tests", "DollarTemplateAnalyzer\DollarTemplateAnalyzer.Tests\DollarTemplateAnalyzer.Tests.csproj", "{E6815F7A-6024-4173-9AC6-D0C52CF1C096}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DollarTemplateAnalyzer.Tests", "DollarTemplateAnalyzer.Tests\DollarTemplateAnalyzer.Tests.csproj", "{E6815F7A-6024-4173-9AC6-D0C52CF1C096}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
