@@ -22,7 +22,7 @@ public class DollarTemplateAnalyzer : DiagnosticAnalyzer
         Title,
         MessageFormat,
         Category,
-        DiagnosticSeverity.Info,
+        DiagnosticSeverity.Warning,
         isEnabledByDefault: true
     );
 
