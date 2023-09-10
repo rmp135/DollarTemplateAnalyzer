@@ -22,6 +22,9 @@
         
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <Version>1.0.0</Version>
+        <RepositoryUrl>https://github.com/rmp135/DollarTemplateAnalyzer</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
     <ItemGroup>

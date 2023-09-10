@@ -1,5 +1,8 @@
 # RP0001: Dollar Template Analyzer
 
+![Nuget](https://img.shields.io/nuget/v/rmp135.DollarTemplateAnalyzer)
+
+
 Have you ever written C# after writing JavaScript and ended up with dollar signs before every template variable?
 
 ```
